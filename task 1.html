@@ -23,7 +23,21 @@ let sum = 0;
 for (let i = 1; i <= input; i++) {
     sum += i;
 }
-console.log("sum of natural numbers up to", input, "is:", sum);
+console.log("sum of natural numbers up to", input, "is:", sum); // Output:sum of natural numbers up to 100 is: 5050
+
+<h4> write a javascript program for given below :
+input = "ch_ai_ta_ny_a"----output: ChAiTaNyA</h4>
+
+var a = "ch_ai_ta_ny_a";
+
+var b = a.split('_');
+
+for (var i = 0; i < b.length; i++) {
+    b[i] = b[i].charAt(0).toUpperCase() + b[i].slice(1);
+}
+var output = b.join('');
+
+console.log(output); // Output: ChAiTaNyA
     </pre>
     <script>
         // .write a js program to find the sum of natural numbers:input = 100
@@ -34,7 +48,22 @@ console.log("sum of natural numbers up to", input, "is:", sum);
         for (let i = 1; i <= input; i++) {
             sum += i;
         }
-        console.log("sum of natural numbers up to", input, "is:", sum);
+        console.log("sum of natural numbers up to", input, "is:", sum);  // Output:sum of natural numbers up to 100 is: 5050
+
+
+        // write a javascript program for given below :
+        // input = "ch_ai_ta_ny_a"--------output: ChAiTaNyA
+
+        var a = "ch_ai_ta_ny_a";
+
+        var b = a.split('_');
+
+        for (var i = 0; i < b.length; i++) {
+            b[i] = b[i].charAt(0).toUpperCase() + b[i].slice(1);
+        }
+        var output = b.join('');
+
+        console.log(output); // Output: ChAiTaNyA
     </script>
 </body>
 
